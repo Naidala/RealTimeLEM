@@ -33,6 +33,9 @@ Global variables (e.g., LEM mass and asteroid data) are accessed with mutex lock
 ---
 ### 🛠️ Installation and Execution
 To compile, navigate to the project directory and run:
+
 `gcc -s main.c $(allegro-config --libs) -pthread -o main -lm`
+
 Run the Simulation (Admin privileges required):
+
 `sudo ./main`
