@@ -30,6 +30,8 @@ The simulation is based on kinematic equations discretized for real-time applica
 
 Global variables (e.g., LEM mass and asteroid data) are accessed with mutex locks to ensure safe concurrent modifications across tasks. Each task adheres to a fixed period for real-time consistency, with critical tasks prioritized to prevent delays.
 
+![Screenshot 2024-11-12 163953](https://github.com/user-attachments/assets/bcb880fa-1647-41c6-9aa3-63c0a53ee994)
+
 ---
 ### 🛠️ Installation and Execution
 To compile, navigate to the project directory and run:
